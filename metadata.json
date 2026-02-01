@@ -1,0 +1,7 @@
+{
+  "name": "Elite Builders Marketplace",
+  "description": "A premium digital construction materials marketplace for the African context, connecting builders with verified suppliers.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
