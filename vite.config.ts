@@ -11,6 +11,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: 'terser',
+    // esbuild is the default and doesn't require extra dependencies
   }
 });
