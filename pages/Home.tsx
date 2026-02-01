@@ -13,9 +13,9 @@ const Home: React.FC<HomeProps> = ({ onShopNow, onNavigate }) => {
     <div className="space-y-20 pb-20">
       {/* Hero Section */}
       <section className="relative bg-slate-900 pt-32 pb-40 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-40">
           <img 
-            src="https://picsum.photos/seed/construction/1920/1080" 
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1920" 
             alt="Hero Background" 
             className="w-full h-full object-cover"
           />
