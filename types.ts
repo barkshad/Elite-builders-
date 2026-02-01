@@ -10,10 +10,10 @@ export interface Category {
 
 export interface Product {
   id: string;
-  name: string;
   categoryId: string;
   supplierId: string;
   supplierName: string;
+  name: string;
   price: number;
   unit: string;
   minOrder: number;
@@ -36,17 +36,4 @@ export interface Supplier {
 export interface CartItem {
   product: Product;
   quantity: number;
-}
-
-export type OrderStatus = 'PENDING' | 'CONFIRMED' | 'IN_TRANSIT' | 'DELIVERED';
-
-export interface Order {
-  id: string;
-  buyerId: string;
-  items: CartItem[];
-  total: number;
-  status: OrderStatus;
-  deliveryDate: string;
-  address: string;
-  createdAt: string;
 }
